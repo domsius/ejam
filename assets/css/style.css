@@ -12,6 +12,36 @@ p {
     margin: 0 !important;
 }
 
+.circle {
+    height: 40px;
+    width: 40px;
+    background-color: #85BF55;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle.active {
+    background-color: #2C7EF8;
+}
+.circle.next {
+    background-color: #fff;
+    border: 2px solid #2C7EF8;
+}
+.circle.next p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #2C7EF8;
+}
+.circle.active p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #fff;
+}
+
 .container-fluid.top-header {
     height: 50px;
     background-color: #252F3D;
@@ -56,6 +86,10 @@ p {
     height: 100%;
 }
 
+.container-fluid.heading {
+    margin-bottom: 60px;
+}
+
 .container-fluid.heading h1{
     font-size: 48px;
     line-height: 48px;
@@ -67,4 +101,45 @@ p {
     line-height: 24px;
     font-weight: 400;
     color: #4D5254;
+}
+
+.container-fluid.progress-bar {
+    margin-bottom: 40px;
+}
+
+.container-fluid.progress-bar .step {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.container-fluid.progress-bar .step p {
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.container-fluid.offer .container {
+    background: #FAFAFA;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.container-fluid.offer .image {
+    height: 591px;
+    width: 100%;
+    border-radius: 10px;
+    background-image: url('../img/clarifion.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container-fluid.offer h2 {
+    font-size: 32px;
+    line-height: 45px;
+    font-weight: 400;
+}
+.container-fluid.offer h2 span {
+    color: #2C7EF8;
 }
