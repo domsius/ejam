@@ -94,6 +94,7 @@ body p, body h1, body h2 , body h3 {
     font-size: 48px;
     line-height: 48px;
     font-weight: 400;
+    margin-bottom: 24px;
 }
 
 .container-fluid.heading p{
@@ -232,6 +233,7 @@ body p, body h1, body h2 , body h3 {
 .container-fluid.offer ul.bullets li:last-child {
     margin-bottom: 0;
 }
+
 .container-fluid.offer ul.bullets li span {
     font-weight: 700;
 }
@@ -242,19 +244,23 @@ body p, body h1, body h2 , body h3 {
     border-radius: 16px;
     gap: 16px;
 }
+
 .container-fluid.offer .saving .circle{
     height: 32px;
     width: 32px;
     background-color: #2C7EF8;
 }
+
 .container-fluid.offer .saving p {
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
 }
+
 .container-fluid.offer .saving p span {
     color: #2C7EF8;
 }
+
 .container-fluid.offer .claim {
     width: 100%;
     display: flex;
@@ -268,4 +274,121 @@ body p, body h1, body h2 , body h3 {
     text-align: center;
     text-decoration: none;
     padding: 16px 0;
+}
+
+.container-fluid.offer .shipping {
+    border: 1px solid #CFCFCF;
+    border-radius: 4px;
+    margin-top: 12px;
+}
+
+.container-fluid.offer .shipping p {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    padding: 8px 14px;
+    color: #4D5254;
+    position: relative;
+}
+
+.container-fluid.offer .shipping p::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    width: 1px;
+    background-color: #CFCFCF;
+    height: 16px;
+}
+.container-fluid.offer .shipping .payments {
+    flex: 1;
+    gap: 2px;
+}
+.container-fluid.offer .shipping .payments img {
+    width: 34px;
+}
+
+.container-fluid.offer .shipping p img {
+    margin-right: 10px;
+}
+
+.container-fluid.offer .dont {
+    margin-top: 20px;
+}
+
+.container-fluid.offer .dont a{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24.59px;
+    color: #F82C2C;
+    text-transform: uppercase;
+}
+
+.container-fluid.offer .satisfaction {
+    gap: 16px;
+    margin-top: 32px;
+}
+
+.container-fluid.offer .satisfaction img {
+    width: 88px;
+}
+
+.container-fluid.offer .satisfaction p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+}
+
+.container-fluid.offer .satisfaction p span {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    color: #4D5254;
+}
+
+.container-fluid.offer .testimonial {
+    margin-top: 24px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 24px;
+}
+
+.container-fluid.offer .testimonial img {
+    width: 48px;
+}
+
+.container-fluid.offer .testimonial .stars img {
+    width: 12px;
+}
+.container-fluid.offer .testimonial .item {
+    gap: 13px;
+}
+.container-fluid.offer .testimonial .name {
+    gap: 10px;
+}
+.container-fluid.offer .testimonial .name p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    color: #333333;
+}
+.container-fluid.offer .testimonial .verified {
+    gap: 10px;
+}
+.container-fluid.offer .testimonial .verified img {
+    width: 16px;
+}
+
+.container-fluid.offer .testimonial .verified p {
+    color: #5BB59A;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.container-fluid.offer .testimonial .desc {
+    margin-top: 16px;
+    font-weight: 400px;
+    font-size: 16px;
+    color: #4D5254;
 }
