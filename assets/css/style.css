@@ -119,7 +119,9 @@ body p, body h1, body h2 , body h3 {
     line-height: 22px;
     font-weight: 400;
 }
-
+.container-fluid.offer {
+    margin-bottom: 60px;
+}
 .container-fluid.offer .container {
     background: #FAFAFA;
     border-radius: 10px;
@@ -391,4 +393,32 @@ body p, body h1, body h2 , body h3 {
     font-weight: 400px;
     font-size: 16px;
     color: #4D5254;
+}
+
+.container-fluid.footer {
+    height: 88px;
+    background-color: #252F3D;
+}
+
+.container-fluid.footer p {
+    color: #fff;
+}
+
+.container-fluid.footer .copyrights {
+    gap: 16px;
+}
+.container-fluid.footer .copyrights.d-flex p{
+    border-right: 1px solid #fff;
+    padding-right: 16px;
+}
+
+.container-fluid.footer .copyrights.d-flex a {
+    text-decoration: none;
+    color: #fff;
+}
+.container-fluid.footer .copyrights.d-flex p:last-child {
+    border: none;
+}
+.container-fluid.footer .secure {
+    gap: 16px;
 }
