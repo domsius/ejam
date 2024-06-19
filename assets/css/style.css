@@ -139,7 +139,6 @@ body p, body h1, body h2 , body h3 {
     font-size: 32px;
     line-height: 45px;
     font-weight: 400;
-    margin-bottom: 32px;
 }
 
 .container-fluid.offer h2 span {
@@ -151,7 +150,6 @@ body p, body h1, body h2 , body h3 {
 }
 .container-fluid.offer .offer-item {
     gap: 24px;
-    margin-bottom: 32px;
 }
 
 .container-fluid.offer .offer-item img {
@@ -212,10 +210,6 @@ body p, body h1, body h2 , body h3 {
     color: #4D5254;
 }
 
-.container-fluid.offer ul.bullets {
-    margin-bottom: 32px;
-}
-
 .container-fluid.offer ul.bullets li::before {
     display: block;
     content: "";
@@ -260,4 +254,18 @@ body p, body h1, body h2 , body h3 {
 }
 .container-fluid.offer .saving p span {
     color: #2C7EF8;
+}
+.container-fluid.offer .claim {
+    width: 100%;
+    display: flex;
+}
+
+.container-fluid.offer .claim a{
+    border-radius: 50px;
+    width: 100%;
+    background-color: #59AE43;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 16px 0;
 }
