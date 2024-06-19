@@ -211,3 +211,53 @@ body p, body h1, body h2 , body h3 {
     font-weight: 400;
     color: #4D5254;
 }
+
+.container-fluid.offer ul.bullets {
+    margin-bottom: 32px;
+}
+
+.container-fluid.offer ul.bullets li::before {
+    display: block;
+    content: "";
+    background-image: url('../img/blue-check.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 22px;
+    height: 22px;
+}
+
+.container-fluid.offer ul.bullets li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+.container-fluid.offer ul.bullets li:last-child {
+    margin-bottom: 0;
+}
+.container-fluid.offer ul.bullets li span {
+    font-weight: 700;
+}
+
+.container-fluid.offer .saving {
+    background-color: #EDF3FD;
+    padding: 12px 16px;
+    border-radius: 16px;
+    gap: 16px;
+}
+.container-fluid.offer .saving .circle{
+    height: 32px;
+    width: 32px;
+    background-color: #2C7EF8;
+}
+.container-fluid.offer .saving p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.container-fluid.offer .saving p span {
+    color: #2C7EF8;
+}
