@@ -8,8 +8,8 @@ body {
     font-family: 'Manrope', sans-serif;
 }
 
-p {
-    margin: 0 !important;
+body p, body h1, body h2 , body h3 {
+    margin: 0;
 }
 
 .circle {
@@ -139,7 +139,43 @@ p {
     font-size: 32px;
     line-height: 45px;
     font-weight: 400;
+    margin-bottom: 32px;
 }
+
 .container-fluid.offer h2 span {
+    color: #2C7EF8;
+}
+
+.container-fluid.offer .offer-item {
+    gap: 24px;
+}
+
+.container-fluid.offer .offer-item img {
+    max-width: 134px;
+}
+.container-fluid.offer .offer-item h3 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.container-fluid.offer .offer-item .d-flex.justify-content-between {
+    flex: 1;
+}
+.container-fluid.offer .offer-item .d-flex.justify-content-between .d-flex {
+    gap: 10px;
+}
+
+.container-fluid.offer .offer-item .d-flex.justify-content-between p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #969696;
+    text-decoration: line-through;
+}
+
+.container-fluid.offer .offer-item .d-flex.justify-content-between span {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 31px;
     color: #2C7EF8;
 }
