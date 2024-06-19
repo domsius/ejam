@@ -123,7 +123,7 @@ body p, body h1, body h2 , body h3 {
 .container-fluid.offer {
     margin-bottom: 60px;
 }
-.container-fluid.offer .container {
+.container-fluid.offer .container-wrapper {
     background: #FAFAFA;
     border-radius: 10px;
     padding: 40px;
@@ -450,12 +450,12 @@ body p, body h1, body h2 , body h3 {
 button.owl-prev {
     position: absolute;
     top: 3px;
-    left: 0;
+    left: 5px;
 }
 button.owl-next {
     position: absolute;
     top: 3px;
-    right: 0;
+    right: 5px;
 }
 
 @media (max-width: 992px) {
@@ -505,7 +505,7 @@ button.owl-next {
     .container-fluid.offer .row {
         flex-direction: column-reverse;
     }
-    .container-fluid.offer .container {
+    .container-fluid.offer .container-wrapper {
         background-color: #fff;
         padding-right: calc(var(--bs-gutter-x)* .5);
         padding-left: calc(var(--bs-gutter-x)* .5);
